@@ -14,7 +14,6 @@ describe('addition unit tests', () => {
 
         // Assert
         expect(result).toBe(4);
-    })
 
     it('Should add 0 + -2 = -2', () => {
         // Arrange
@@ -51,5 +50,6 @@ describe('addition unit tests', () => {
         // Assert
         expect(result).toBe(0.0);
     })
-
+    
+})
 })
