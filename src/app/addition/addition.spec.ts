@@ -42,7 +42,7 @@ describe('addition unit tests', () => {
         expect(result).toBe(2.7);
     })
 
-    it('Should add 0.0 + 0.0 = 0.0', () => {
+    xit('Should add 0.0 + 0.0 = 0.0', () => {
         // Arrange
         let result = 0;
         // Act
