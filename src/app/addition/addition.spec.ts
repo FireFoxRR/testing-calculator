@@ -3,7 +3,7 @@ import { addition } from "./addition"
 
 describe('addition unit tests', () => {
     
-    it('Should add 2 + 2 = 4', () => {
+    xit('Should add 2 + 2 = 4', () => {
         // Pattern AAA (Arrange - Act - Assert)
 
         // Arrange
@@ -14,7 +14,6 @@ describe('addition unit tests', () => {
 
         // Assert
         expect(result).toBe(4);
-    })
 
     it('Should add 0 + -2 = -2', () => {
         // Arrange
@@ -43,7 +42,7 @@ describe('addition unit tests', () => {
         expect(result).toBe(2.7);
     })
 
-    it('Should add 0.0 + 0.0 = 0.0', () => {
+    xit('Should add 0.0 + 0.0 = 0.0', () => {
         // Arrange
         let result = 0;
         // Act
@@ -51,5 +50,6 @@ describe('addition unit tests', () => {
         // Assert
         expect(result).toBe(0.0);
     })
-
+    
+})
 })
