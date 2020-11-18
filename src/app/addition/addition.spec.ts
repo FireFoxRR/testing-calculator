@@ -3,7 +3,7 @@ import { addition } from "./addition"
 
 describe('addition unit tests', () => {
     
-    it('Should add 2 + 2 = 4', () => {
+    xit('Should add 2 + 2 = 4', () => {
         // Pattern AAA (Arrange - Act - Assert)
 
         // Arrange

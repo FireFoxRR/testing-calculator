@@ -1,6 +1,7 @@
-import { ngfactoryFilePath } from '@angular/compiler/src/aot/util';
-
-export function exp(oper1, oper2){
+export function exp(base, exp){
+    // refactoring
     
-    return Math.pow(oper1, oper2);
+    let pow = 0;
+    pow = Math.pow(base, exp);
+    return pow;
 }
