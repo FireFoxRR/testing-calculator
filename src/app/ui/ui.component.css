@@ -2,33 +2,53 @@
     width: 150px;
     text-align: center;
     color: #999;
-    }
-    
-    .result {
+}
+
+.result {
     font-size: 3.0em;
     font-weight: bold;
+    color: mediumorchid;
+
+}
+
+.operator1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: blue;
+
+}
+
+.operator2 {
+    font-size: 1.5em;
+    font-weight: bold;
     color: red;
-    
-    }
-    
-    .operator1 {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: black;
-    
-    }
-    
-    .operator2 {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: blue;
-    
-    }
-    .addition-button {
+
+}
+.addition-button {
     cursor: pointer;
-    color: blue;
-    }
-    .substraction-button {
+    color: brown;
+}
+.substraction-button {
     cursor: pointer;
-    color: green;
-    } 
+    color: orange;
+}
+.multiplication-button {
+    cursor: pointer;
+    color: olivedrab;
+}
+.division-button {
+    cursor: pointer;
+    color: aqua;
+}
+.exp-button {
+    cursor: pointer;
+    color: forestgreen;
+}
+.sqr-button {
+    cursor: pointer;
+    color: chartreuse;
+}
+.sqrt-button {
+    cursor: pointer;
+    color: red;
+}
