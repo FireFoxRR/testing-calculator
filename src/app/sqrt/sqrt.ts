@@ -1,4 +1,7 @@
 export function sqrt(oper1){
+    //refactoring
+    let sqrt = 0
 
-    return Math.sqrt(oper1);
+    sqrt = Math.sqrt(oper1);
+    return (sqrt);
 }
